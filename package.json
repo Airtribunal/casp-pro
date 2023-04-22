@@ -1,0 +1,26 @@
+{
+  "name": "airtrib-media-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4444",
+    "build": "next build",
+    "start": "next start -p 4444",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.11",
+    "dotenv": "^16.0.3",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1",
+    "next": "13.2.1",
+    "nodemailer": "^6.9.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-intersection-observer": "^9.4.3",
+    "react-toastify": "^9.1.1"
+  }
+}
