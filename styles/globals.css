@@ -572,7 +572,8 @@ section>.container {
   grid-template-areas:
     'a a b b'
     'c c d d'
-    'e e f f';
+    'e e f f'
+    'g g h h';
   gap: 1.25rem;
 }
 
@@ -598,6 +599,14 @@ section>.container {
 
 .project:nth-child(6) {
   grid-area: f;
+}
+
+.project:nth-child(7) {
+  grid-area: g;
+}
+
+.project:nth-child(8) {
+  grid-area: h;
 }
 
 .project {
@@ -1209,7 +1218,9 @@ input:focus {
       'c'
       'd'
       'e'
-      'f';
+      'f'
+      'g'
+      'h';
     gap: 1.25rem;
   }
 

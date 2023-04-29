@@ -5,6 +5,10 @@ import the3 from "./../../../public/images/projects/3.png";
 import the4 from "./../../../public/images/projects/4.png";
 import the5 from "./../../../public/images/projects/5.png";
 import the6 from "./../../../public/images/projects/6.png";
+import the7 from "./../../../public/images/projects/7.png";
+import the8 from "./../../../public/images/projects/8.png";
+import the11 from "./../../../public/images/projects/11.png";
+import the12 from "./../../../public/images/projects/12.png";
 import ProjectCard from "../molecules/ProjectCard";
 
 const Projects = (props) => {
@@ -52,6 +56,20 @@ const Projects = (props) => {
         "Наше агентство также занимается созданием сайтов-портфолио. Сайт-портфолио позволяет вам выделиться и повысить свою ценность.",
       link: "https://ramazanov-web.ru/",
       src: the6,
+    },
+    {
+      title: "rapid launch",
+      description:
+        "Оригинальность дизайна - наша сильная сторона. Сайты создаются специально под вашу нишу для привлечения клиентов.",
+      link: "https://greenway-rapid-launch.vercel.app/",
+      src: the11,
+    },
+    {
+      title: "rapid launch",
+      description:
+        "Оригинальность дизайна - наша сильная сторона. Сайты создаются специально под вашу нишу для привлечения клиентов.",
+      link: "https://greenway-rapid-launch.vercel.app/",
+      src: the12,
     },
   ];
 
